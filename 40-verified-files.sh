@@ -3,7 +3,7 @@
 set -e
 
 if [ ! -f "/getssl/getssl" ]; then
-    cp -r /tmp_getssl /getssl
+    cp -r /tmp_getssl/getssl/* /getssl/
 fi
 
 exit 0
