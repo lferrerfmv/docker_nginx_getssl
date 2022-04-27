@@ -2,7 +2,7 @@
 
 set -e
 
-if [ ! -f "/getssl/getssl" ]; then
+if [ ! -f "/root/getssl" ]; then
     cp -r /tmp_getssl/getssl/* /root/
 fi
 
