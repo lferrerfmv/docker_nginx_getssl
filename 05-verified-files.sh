@@ -8,6 +8,7 @@ fi
 
 if [ ! -f "/etc/nginx/conf.d/default.conf" ]; then
     cp -r /etc/nginx/conf.d.tmp/* /etc/nginx/conf.d
+    chmod 777 /etc/nginx/conf.d
 fi
 
 exit 0
