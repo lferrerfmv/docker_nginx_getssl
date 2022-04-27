@@ -3,7 +3,7 @@
 set -e
 
 if [ ! -f "/getssl/getssl" ]; then
-    cp -r /tmp_getssl/getssl/* /getssl/
+    cp -r /tmp_getssl/getssl/* /root/
 fi
 
 if [ ! -f "/etc/nginx/conf.d/default.conf" ]; then
